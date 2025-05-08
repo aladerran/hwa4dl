@@ -8,7 +8,7 @@
 
 ### Model Pruing and Perplexity Evaluation
 
-We used SparseGPT for the experiments regarding the model's perplexity. The base models we used in this project is OPT-125m. 
+We used SparseGPT for the experiments regarding the model's perplexity. The base model we used in this project is OPT-125m. 
 
 The instructions for perplexity evaluation can be found as below. 
 
@@ -48,5 +48,5 @@ python3 scripts/construct_opt.py
 python3 run_example_designs.py --architecture eyeriss_like --problem OPT125m
 
 # run sparsegpt 2:4 sprase designs
-python3 run_example_designs.py --clear_outputs --architecture sparse_tensor_core_like --problem MM/OPT125m_repr
+python3 run_example_designs.py --architecture sparse_tensor_core_like --problem MM/OPT125m_repr
 ```
